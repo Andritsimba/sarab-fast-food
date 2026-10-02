@@ -1,0 +1,189 @@
+#homePage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: rgb(255, 248, 240);
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.burger-fast-food {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.burger-content {
+    border: 1px solid #3333339c;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+    width: 40%;
+    gap: 30px;
+    padding: 20px;
+}
+
+.burger-rated {
+    background-color: white;
+    display: flex;
+    gap: 5px;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px 2px #333
+}
+
+.burger-rated .star-rating {
+    background: linear-gradient(to right, #df4c08, #ccb16e);
+    color: white;
+    padding: 0 5px;
+    border-radius: 50%
+}
+
+h1.buger-title {
+    font-family: 'Font Awesome 6 Free', sans-serif;
+    line-height: 1.2;
+    font-size: 50px;
+    color: #333;
+}
+
+.burger-title-red {
+    color: #df0808;
+}
+
+.burger-article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.burger-explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.burger-article .burger-counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.number-more {
+    border-left: 2px solid #3333339c;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.number-more span {
+    color: black;
+    font-family: 'Font Awesome 6 Free', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.burger-blog-circle {
+    border: 1px solid #3333339c;
+    position: relative;
+    display: flex;
+    width: 40%;
+}
+
+.burger-blog-circle-img {
+    border: 20px solid #c9ac0acc;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.burger-blog-circle-img > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+.burger-infos {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: #000 solid 1px;
+    width: 100%;
+    height: 100%;
+}
+
+.burger-box-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-color:white;
+    padding: 5px 10px;
+    box-shadow: 0px 2px 5px 2px #333;
+    border-radius: 20px;
+    color: #000;
+    width: 175px;
+    height: 100px;
+}
+
+.deal, .minute, .review {
+    padding: 5px 10px;
+    box-shadow: 0px 2px 5px 2px #333;
+    border-radius: 5px;
+}
+.deal{
+    background-color: #793b3b81;
+    color: rgba(182, 29, 29, 0.822);
+}
+.minute{
+   background-color: #c6dfeb81;
+    color: rgba(5, 83, 18, 0.842);
+} 
+.review{
+   background-color: #b3b2a98a;
+    color: rgb(216, 162, 14);
+} 
+
+.a-top {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.a-right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.a-bottom{
+    position: absolute;
+    bottom: 50%;
+    right: 10px;
+}
+
+.menus-sarab-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    background-color: #ca0f0fef;
+}
+
+.menus-sarab-list > li {
+    color: white;
+    font-family: 'Font Awesome 6 Solid', sans-serif;
+    font-size: 15px;
+    margin: 15px 0;
+}
